@@ -1,0 +1,11 @@
+<!-- Botão para ativar os filtros -->
+<button (click)="toggleFilterOptions()">Filtro</button>
+
+<!-- Opções de filtro que aparecem quando 'showFilterOptions' é verdadeiro -->
+<div *ngIf="showFilterOptions" class="filter-options">
+  <button (click)="filterBy('credibilidade')">Credibilidade</button>
+  <button (click)="filterBy('respeito')">Respeito</button>
+  <button (click)="filterBy('imparcialidade')">Imparcialidade</button>
+  <button (click)="filterBy('camaradagem')">Camaradagem</button>
+  <button (click)="filterBy('orgulho')">Orgulho</button>
+</div>

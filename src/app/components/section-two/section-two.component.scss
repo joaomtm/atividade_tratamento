@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+}
+
+.component-one{
+    align-items: center;
+    justify-items: center; 
+    grid-column: 1; 
+    grid-row: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.component-two{
+    align-items: center;
+    justify-items: center; 
+    grid-column: 2; 
+    grid-row: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}

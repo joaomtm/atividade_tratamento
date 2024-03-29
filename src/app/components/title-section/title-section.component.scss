@@ -1,0 +1,62 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px;
+    border-bottom: 1px solid #001E50;
+}
+
+.section-button{
+  align-items: center;
+  grid-column: 2; 
+  grid-row: 1;
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    color: #001E50;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 5px 0px 20px 0px;
+    grid-column: 1; 
+    grid-row: 1;
+}
+
+.info-button {
+  margin-top: 12px;
+  font-family: 'Inter', sans-serif;
+  background-color: #009CDE; 
+  border: none; 
+  border-radius: 8px; 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 12px; 
+  font-weight: 300; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+  cursor: pointer; 
+  text-transform: uppercase; 
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  justify-self: end; // Alinha este item específico à esquerda dentro de sua célula
+
+  
+  img {
+    width: 15px; 
+    height: 15px;
+  }
+
+  &:hover {
+    background-color: darken(#009CDE, 10%);
+  }
+
+  &:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px white;
+  }
+}

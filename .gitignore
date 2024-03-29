@@ -1,0 +1,53 @@
+# Dependências
+/node_modules
+
+# Arquivos de compilação
+/dist
+/tmp
+/out-tsc
+
+# Arquivos de configuração do IDE
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de log
+*.log
+npm-debug.log*
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor
+*.sublime-workspace
+
+# Arquivo de bloqueio de pacote
+yarn.lock
+package-lock.json
+
+# Diretórios de cobertura
+/coverage
+/.nyc_output
+
+# Arquivo de configuração do Angular local
+# angular.json
+
+# Arquivos de ambiente específicos do projeto
+# /src/environments/*.ts
+
+# Exclua todos os arquivos .ts, exceto aqueles que terminam em .d.ts
+# *.ts
+# !*.d.ts
+
+# Arquivo de configuração do Firebase
+**/firebase.json
+**/.firebaserc
+
+# Arquivo de chave de serviço do Firebase
+**/service-account-file.json
+/.angular/cache/

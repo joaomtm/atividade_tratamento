@@ -1,0 +1,31 @@
+/* Estilização do botão de filtro principal */
+button {
+    margin: 0;
+    padding: 8px 16px;
+    border: none;
+    background-color: #2d85e3;
+    color: white; /* Cor do texto do botão */
+    cursor: pointer;
+  }
+  
+  /* Estilização dos botões de opções de filtro */
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background-color: #f8f9fa; /* Fundo cinza claro para todo o container de opções */
+  }
+  
+  .filter-options button {
+    margin-top: 4px; /* Espaço entre os botões */
+    padding: 8px;
+    border: none;
+    background-color: #f0f0f0; /* Mudança de fundo para um cinza mais claro */
+    color: black; /* Mudança da cor do texto para preto */
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .filter-options button:hover {
+    background-color: #e2e6ea; /* Um cinza um pouco mais escuro ao passar o mouse */
+  }

@@ -1,0 +1,70 @@
+/* enps-score.component.css */
+.enps-container {
+    font-family: Arial, sans-serif;
+  }
+  .enps-header {
+    font-size: 14px;
+    color: #666;
+    margin: 20px;
+  }
+  .enps-scale {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  .dot {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    margin-left: 30px;
+  }
+  .red { background-color: #FF0000; }
+  .light-red { background-color: #FF6666; }
+  .yellow { background-color: #FFCC00; }
+  .light-green { background-color: #99CC00; }
+  .green { background-color: #228B22; }
+  .scale-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: center;
+  
+  }
+  .scale-progress {
+    height: 100%;
+    background-color: #FF0000; /* Initial color, can use a gradient or change based on score */
+    position: absolute;
+    z-index: 1;
+  }
+  .scale-indicator {
+    position: absolute;
+    top: -30px; /* Adjust as needed */
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+    text-align: center;
+    margin-top: 8px;;
+    padding-right: 20px;
+  
+  }
+  .enps-info {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  img{
+    width: 100%;
+  }

@@ -1,0 +1,28 @@
+button {
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+
+  
+  .tooltip {
+    display: none;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  
+  button:hover + .tooltip {
+    display: block;
+  }

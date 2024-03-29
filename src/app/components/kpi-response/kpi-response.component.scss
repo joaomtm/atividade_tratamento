@@ -1,0 +1,33 @@
+.kpi-header{
+    font-size: 14px;
+    color: #666;
+    margin: 20px;
+}
+
+h5{
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+component-one-content{
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+}
+
+::ng-deep component-one-content h5 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+}
+
+::ng-deep component-one-content h5 span {
+    font-weight: bold;
+    font-size: 25px;
+}

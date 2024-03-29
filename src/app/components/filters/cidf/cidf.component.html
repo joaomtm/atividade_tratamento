@@ -1,0 +1,13 @@
+<!-- Botão para ativar os filtros do CIDF -->
+<button (click)="toggleFilterOptions()">Filtro</button>
+
+<!-- Opções de filtro do CIDF que aparecem quando 'showFilterOptions' é verdadeiro -->
+<div *ngIf="showFilterOptions" class="filter-options">
+  <button (click)="filterBy('laboral_profissional')">Laboral e Profissional</button>
+  <button (click)="filterBy('contexto_familiar_relacionamento')">Contexto Familiar e Relacionamento</button>
+  <button (click)="filterBy('dependencia_quimica')">Dependência Química</button>
+  <button (click)="filterBy('misto')">Misto</button>
+  <button (click)="filterBy('luto')">Luto</button>
+  <button (click)="filterBy('doenca_mental_fisiologia')">Doença Mental e Fisiologia</button>
+  <button (click)="filterBy('nao_identificado')">Não Identificado</button>
+</div>

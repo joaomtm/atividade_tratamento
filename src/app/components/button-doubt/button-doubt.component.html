@@ -1,0 +1,5 @@
+<button (mouseenter)="mostrarTooltip = true"
+        (mouseleave)="mostrarTooltip = false">
+        <img src="./assets/button-doubt.png" alt="Descrição da Imagem">
+</button>
+<div *ngIf="mostrarTooltip" class="tooltip">Botão ativo - passe o mouse por cima</div>

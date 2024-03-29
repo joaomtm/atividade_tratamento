@@ -1,0 +1,10 @@
+<div class="titleTable">
+    <app-title-chart>
+      <ng-content select="[title-chart]"></ng-content>
+    </app-title-chart>
+    <app-button-doubt></app-button-doubt>
+</div>
+
+<div class="scatter-container">
+    <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [xaxis]="chartOptions.xaxis"></apx-chart>
+</div>

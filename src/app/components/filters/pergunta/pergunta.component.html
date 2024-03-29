@@ -1,0 +1,15 @@
+<!-- Botão para ativar os filtros de perguntas -->
+<button (click)="toggleFilterOptions()">Filtro</button>
+
+<!-- Opções de filtro de perguntas que aparecem quando 'showFilterOptions' é verdadeiro -->
+<div *ngIf="showFilterOptions" class="filter-options">
+  <button (click)="filterBy('atividades_atuais')">Eu gosto das minhas atividades atuais</button>
+  <button (click)="filterBy('empregadora_atrativa')">Para mim, a VWB é uma empregadora atrativa</button>
+  <button (click)="filterBy('atingimos_objetivos')">Nós atingimos os objetivos de trabalho do nosso setor/UO cumprindo com regulamentos e processos</button>
+  <button (click)="filterBy('vwb_vista_positivamente')">A VWB é vista positivamente pelo público e pelos nossos clientes</button>
+  <button (click)="filterBy('riscos_erros_discutidos')">No nosso setor/UO, riscos e erros são discutidos, e não ocultados</button>
+  <button (click)="filterBy('trabalho_em_conjunto')">O trabalho em conjunto com colegas de outros setores é bom</button>
+  <button (click)="filterBy('contribuicao_reconhecida')">Minha contribuição individual é reconhecida pelos outros</button>
+  <button (click)="filterBy('acesso_treinamentos')">Tenho acesso a treinamentos adicionais, se minha função exigir</button>
+  <button (click)="filterBy('medidas_otimizacao')">Em nosso setor/UO, medidas suficientes são tomadas para otimizar os processos</button>
+</div>

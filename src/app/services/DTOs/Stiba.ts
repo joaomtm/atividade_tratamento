@@ -1,0 +1,31 @@
+export type Stiba = {
+    descricaoUO: string;
+    elegiveis: number;
+    respondentes: number;
+    percPart: number;
+    notaStiba: string;
+    q01: string;
+    q02: string;
+    q03: string;
+    q04: string;
+    q05: string;
+    q06: string;
+    q07: string;
+    q08: string;
+    q09: string;
+    q10: string;
+    q11: string;
+    q12: string;
+    q13: string;
+    q14: string;
+    q15: string;
+    q16: string;
+    q17: string;
+    q18: string;
+    q19: string;
+    q20: string;
+    q21: string;
+    q22: string;
+    q23: string;
+    q24: string;
+}

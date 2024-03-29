@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    margin-top: 30px;
+}
+
+.component-one{
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    grid-column: 1; 
+    grid-row: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.component-two{
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    grid-column: 2; 
+    grid-row: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.component-three{
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    grid-column: 3; 
+    grid-row: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.component-four{
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+    grid-column: 4; 
+    grid-row: 1;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}

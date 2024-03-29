@@ -1,0 +1,16 @@
+<div class="average-card">
+    <div class="average-title">Nota média das dimensões</div>
+    <div class="average-score" [ngClass]="{'positive': isPositive, 'negative': !isPositive}">
+      {{ score }}
+    </div>
+    <div class="average-change" [ngClass]="{'positive': isPositive, 'negative': !isPositive}">
+      <span class="material-icons">{{ isPositive ? 'arrow_upward' : 'arrow_downward' }}</span>
+      {{ changePercent }}% <span>Comparado ao ano passado</span>
+    </div>
+    <!--
+    <div class="average-detail">
+      <span>{{ majorDimensionName }}</span> foi a maior dimensão, com <span>{{ majorDimensionValue }}%</span>
+    </div>
+    -->
+</div>
+  

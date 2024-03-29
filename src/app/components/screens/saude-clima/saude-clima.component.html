@@ -1,0 +1,81 @@
+<div class="saude-clima">
+    <app-header></app-header>
+    <app-title-page>Relatório Saúde x Clima Empresarial</app-title-page>
+
+    <app-title-section>Visão Geral</app-title-section>
+    <app-section-five>
+        <div component-one-content>
+            <app-kpi-note></app-kpi-note>
+        </div>
+        <div component-two-content>
+            <app-kpi-note></app-kpi-note>
+        </div>
+        <div component-three-content>
+            <app-kpi-culture></app-kpi-culture>
+        </div>
+        <div component-four-content>
+            <app-kpi-culture></app-kpi-culture>
+        </div>
+        <div component-five-content>
+            5
+        </div>
+    </app-section-five>
+
+    <app-title-section>Comparações Saúde x Engajamento</app-title-section>
+    <app-section-two>
+        <div component-one-content>
+            <app-scatter-chart>
+                <div title-chart>
+                    Saúde ocupacional X Engajamento
+
+<!-- Filtro CIDF adicionado - adicionar na tela do Relatório Saúde x Clima Empresarial--> 
+<div component-one></div>
+<app-cidf></app-cidf>
+
+
+<!-- Filtro Aspect adicionado, adicionar na tela do Relatório Saúde x Clima Empresarial -->
+<div component-one></div>
+<app-filters-aspect></app-filters-aspect>
+                </div>
+            </app-scatter-chart>
+        </div>
+        <div component-two-content>
+            <app-scatter-chart>
+                <div title-chart>
+                    Sessões do Zenklub X GPTW
+                </div>
+            </app-scatter-chart>
+        </div>
+    </app-section-two>
+    <app-section-one>
+        <div component-one-content>
+            <div component-one-content>
+                <app-multi-line-chart>
+                    <div title-chart>
+                        Quantidade de atestados X Notas de engajamento
+                    </div>
+                </app-multi-line-chart>
+            </div>
+        </div>
+    </app-section-one>
+    <app-section-one>
+        <div component-one-content>
+            <div component-one-content>
+                <app-multi-line-chart>
+                    <div title-chart>
+                        Quantidade de sessões do Zenklub X Notas de engajamento
+                    </div>
+                </app-multi-line-chart>
+            </div>
+        </div>
+    </app-section-one>
+    <app-section-one>
+        <div component-one-content>
+            <app-table>
+                <div title-chart>
+                    Áreas com pontuação crítica
+                </div>
+            </app-table>
+        </div>
+    </app-section-one>
+</div>

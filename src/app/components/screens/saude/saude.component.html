@@ -1,0 +1,101 @@
+<div class="saude">
+    <app-header></app-header>
+    <app-title-page>Relatório Saúde</app-title-page>
+
+    <app-title-section> Visão geral da saúde ocupacional </app-title-section>
+
+    <app-section-three-saude>
+        <div component-one-content>
+            <div title-chart>
+                Quantidade de atestados por <h5>mês</h5>
+            </div>
+            <app-kpi-note></app-kpi-note>
+        </div>
+        <div component-two-content>
+            <div title-chart>
+                Quantidade de atestados por dias abonados
+            </div>
+            <app-multi-line-chart></app-multi-line-chart>
+        </div>
+        <div component-three-content>
+            <div title-chart>
+                Média de sessões do Zenklub por colaborador
+            </div>
+            <app-kpi-note></app-kpi-note>
+        </div>
+    </app-section-three-saude>
+    <app-title-section> Análise de condições de saúde </app-title-section>
+    <app-section-two>
+        <div component-one-content>
+            <div title-chart>
+                Média de dias abonados por mês
+            </div>
+            <app-column-chart></app-column-chart>
+        </div>
+        <div component-two-content>
+            <div title-chart>
+                Média de dias abonados por planta
+            </div>
+            <app-column-factory-chart></app-column-factory-chart>
+        </div>
+    </app-section-two>
+    <app-section-three>
+            <div component-one-content>
+            <div title-chart>
+                5 principais causas das doenças e problemas
+            </div>
+                <app-table></app-table>
+            </div>
+            <div component-two-content>
+                <app-table [dataSource]="diseaseTop" [displayedColumns]="['position', 'name', 'weight']">
+                    <div title-chart>
+                        5 principais doenças e problemas da área
+                    </div>
+                    <div title-one-column>
+                        #
+                    </div>
+                    <div title-two-column>
+                        Doença/Problema
+                    </div>
+                    <div title-three-column>
+                        Quantidade
+                    </div>
+                </app-table>
+            </div>
+            <div component-three-content>
+            <div title-chart>
+                5 principais cargos afetados
+            </div>
+                <app-column-chart></app-column-chart>
+            </div>
+    </app-section-three>
+    <app-section-two>
+        <div component-one-content>
+            <div title-chart>
+                Quantidade de atestados CIDF por diretoria
+            </div>
+            <app-column-chart></app-column-chart>
+        </div>
+        <div component-two-content>
+            <div title-chart>
+                Média de sessões realizadas no Zenklub por colaborador (por mês)
+            </div>
+            <app-column-factory-chart></app-column-factory-chart>
+        </div>
+    </app-section-two>
+    <app-section-one>
+        <div component-one-content>
+            <div title-chart>
+                Tendências de saúde mental por CIDF
+            </div>
+            <app-multi-line-chart></app-multi-line-chart>
+        </div>
+    </app-section-one>
+    <app-section-one>
+        <div component-one-content>
+            <div title-chart>
+                Quantidade de atestados por sessões do Zenklub
+            </div>
+            <app-line-chart></app-line-chart>
+        </div>
+    </app-section-one>
