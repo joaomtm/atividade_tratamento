@@ -1,6 +1,6 @@
 ##  Gráfico Implementado
 
-O gráfico selecionado para implementação foi o "5 principais doenças e problemas da área", indicando quais são as doenças mais comuns dentro do cenário da Volkswagen e o seus números de incidência.O gráfico se encontra na aba saúde do dashboard, aproximadamente no meio da página.
+O gráfico selecionado para implementação foi o "5 principais doenças e problemas da área", indicando quais são as doenças mais comuns dentro do cenário da Volkswagen e o seus números de incidência. O gráfico se encontra na aba saúde do dashboard, aproximadamente no meio da página, tratando de colocar a soma de todas as linhas por caso de doença e organizando essas aglutinações em ordem decrescente
 
 ![image](https://github.com/joaomtm/atividade_tratamento/assets/99208815/2020be37-7085-46b7-a318-31943b6c525e)
 
@@ -8,7 +8,7 @@ O gráfico selecionado para implementação foi o "5 principais doenças e probl
 
 ## Código do Gráfico 
 
-O código do gráfico pode ser dividio em duas partes principais: components e services.
+O código do gráfico pode ser dividido em duas partes principais: components e services.
 
 ### Components
 
@@ -28,7 +28,7 @@ TS:
 Este código é um componente Angular chamado SaudeComponent que mostra informações de saúde. Ele usa diferentes componentes e um serviço chamado SaudeService para buscar e exibir dados sobre as principais doenças.
 
 
-##### Services
+#### Services
 
 Os services são responsáveis por fornecer funcionalidades adicionais ao gráfico, como interações com banco de dados, cálculos estatísticos, processamento de dados, entre outros. Eles geralmente estão envolvidos no fornecimento e manipulação dos dados que alimentam os componentes do gráfico.
 
@@ -45,10 +45,10 @@ saude.service.spec: responsável por testar a integridade e precisão das funcio
 saude.service: Oferece métodos e funcionalidades relacionadas à saúde, simplificando a manipulação de dados e interações com APIs, enquanto fornece uma interface coesa para a aplicação.
 
 
-
 ## Aplicação
 
 Executando o back-end e o front-end, o gráfico já deve funcionar com sua integração e serviço de tratamento completo.
+
 
 
 
